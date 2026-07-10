@@ -1,39 +1,89 @@
-# Jarvis AI Assistant
+# 🤖 Jarvis Assistant
 
-Jarvis AI Assistant is a Python-based desktop voice assistant that uses speech recognition and text-to-speech to interact with users through voice commands. Inspired by JARVIS from Iron Man, it can recognize a wake word, execute common desktop and web-based tasks, and respond with spoken feedback.
+A Python-based desktop voice assistant inspired by JARVIS from Iron Man. It recognizes voice commands, responds using text-to-speech, and performs various desktop and web automation tasks.
 
-## Features
+## ✨ Features
 
-* 🎙️ Wake-word activation ("Jarvis")
-* 🗣️ Speech recognition using Google Speech Recognition
-* 🔊 Text-to-speech responses using gTTS
-* 🌐 Open websites such as YouTube, Google, GitHub, and WhatsApp Web
-* 🎵 Play songs from a custom music library
-* 🔍 Perform Google searches using voice commands
-* 🕒 Tell the current time
-* 📅 Tell today's date
-* 💻 Open Windows Command Prompt
-* 👂 Ambient noise adjustment for improved voice recognition
-* ⚠️ Graceful handling of speech recognition errors
-* 👋 Exit command with voice confirmation
+- 🎤 Wake word detection ("Jarvis")
+- 🗣️ Speech Recognition
+- 🔊 Text-to-Speech (gTTS)
+- 🌐 Open YouTube
+- 🔍 Open Google
+- 💻 Open GitHub
+- 💬 Open WhatsApp Web
+- 🎵 Play music from a custom music library
+- ⏰ Tell the current time
+- 📅 Tell today's date
+- 🔎 Search Google using voice commands
+- 💻 Open Command Prompt
+- ❌ Exit using voice command
+- ⚠️ Error handling for speech recognition
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-* Python
-* SpeechRecognition
-* gTTS (Google Text-to-Speech)
-* pygame
-* webbrowser
-* datetime
-* tempfile
-* os
+- Python
+- SpeechRecognition
+- gTTS
+- pygame
+- webbrowser
+- datetime
+- tempfile
 
-## Future Improvements
+## 📂 Project Structure
 
-* Wikipedia integration
-* Weather updates
-* AI chatbot integration (OpenAI/Gemini)
-* Desktop GUI
-* Email and WhatsApp messaging
-* Voice authentication
-* Smart home automation
+```
+Jarvis-AI-Assistant/
+│── jarvis.py
+│── musiclib.py
+│── requirements.txt
+│── README.md
+```
+
+## 🚀 Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/Jarvis-AI-Assistant.git
+```
+
+2. Navigate to the project
+
+```bash
+cd Jarvis-AI-Assistant
+```
+
+3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the project
+
+```bash
+python jarvis.py
+```
+
+## 🎙️ Example Commands
+
+- Jarvis open YouTube
+- Jarvis open Google
+- Jarvis open GitHub
+- Jarvis open WhatsApp
+- Jarvis play golden
+- Jarvis what is the time
+- Jarvis what's today's date
+- Jarvis search Google for Python tutorials
+- Jarvis open command prompt
+- Jarvis exit
+
+## 🔮 Future Improvements
+
+- Wikipedia integration
+- Weather updates
+- AI chatbot integration
+- GUI
+- Email automation
+- Voice authentication
+- System control (shutdown/restart)
